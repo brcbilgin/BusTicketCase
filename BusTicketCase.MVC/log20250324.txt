@@ -1,0 +1,82 @@
+2025-03-24 10:04:15.204 +03:00 [INF] User profile is available. Using '/Users/burcu.bilgin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-03-24 10:04:15.318 +03:00 [INF] Now listening on: http://localhost:5112
+2025-03-24 10:04:15.319 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 10:04:15.319 +03:00 [INF] Hosting environment: Development
+2025-03-24 10:04:15.319 +03:00 [INF] Content root path: /Users/BusTicketCase/BusTicketCase.MVC
+2025-03-24 10:04:16.032 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5112/ - null null
+2025-03-24 10:04:16.037 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-03-24 10:04:16.051 +03:00 [INF] Executing endpoint 'BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC)'
+2025-03-24 10:04:16.078 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Boolean) on controller BusTicketCase.MVC.Controllers.HomeController (BusTicketCase.MVC).
+2025-03-24 10:04:16.235 +03:00 [INF] Executing action method BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC) - Validation state: "Valid"
+2025-03-24 10:04:16.839 +03:00 [INF] Executed action method BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC), returned result Microsoft.AspNetCore.Mvc.ViewResult in 599.9858ms.
+2025-03-24 10:04:16.856 +03:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 10:04:17.019 +03:00 [INF] Executed ViewResult - view Index executed in 165.3317ms.
+2025-03-24 10:04:17.021 +03:00 [INF] Executed action BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC) in 942.2481ms
+2025-03-24 10:04:17.022 +03:00 [INF] Executed endpoint 'BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC)'
+2025-03-24 10:04:17.027 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5112/ - 200 null text/html; charset=utf-8 995.9995ms
+2025-03-24 10:04:39.608 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5112/Home/GetJourneys - application/x-www-form-urlencoded 274
+2025-03-24 10:04:39.612 +03:00 [INF] Executing endpoint 'BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC)'
+2025-03-24 10:04:39.618 +03:00 [INF] Route matched with {action = "GetJourneys", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetJourneys(BusTicketCase.MVC.Models.IndexViewModel) on controller BusTicketCase.MVC.Controllers.HomeController (BusTicketCase.MVC).
+2025-03-24 10:04:39.638 +03:00 [INF] Executing action method BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC) - Validation state: "Valid"
+2025-03-24 10:04:40.183 +03:00 [INF] Executed action method BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC), returned result Microsoft.AspNetCore.Mvc.ViewResult in 544.6714ms.
+2025-03-24 10:04:40.184 +03:00 [INF] Executing ViewResult, running view JourneyIndex.
+2025-03-24 10:04:40.195 +03:00 [INF] Executed ViewResult - view JourneyIndex executed in 11.9234ms.
+2025-03-24 10:04:40.196 +03:00 [INF] Executed action BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC) in 577.6382ms
+2025-03-24 10:04:40.196 +03:00 [INF] Executed endpoint 'BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC)'
+2025-03-24 10:04:40.196 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5112/Home/GetJourneys - 200 null text/html; charset=utf-8 588.7635ms
+2025-03-24 10:04:43.310 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5112/?isReturnPage=true - null null
+2025-03-24 10:04:43.311 +03:00 [INF] Executing endpoint 'BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC)'
+2025-03-24 10:04:43.311 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Boolean) on controller BusTicketCase.MVC.Controllers.HomeController (BusTicketCase.MVC).
+2025-03-24 10:04:43.317 +03:00 [INF] Executing action method BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC) - Validation state: "Valid"
+2025-03-24 10:04:43.320 +03:00 [INF] Executed action method BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.0483ms.
+2025-03-24 10:04:43.320 +03:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 10:04:43.323 +03:00 [INF] Executed ViewResult - view Index executed in 2.7319ms.
+2025-03-24 10:04:43.323 +03:00 [INF] Executed action BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC) in 11.5143ms
+2025-03-24 10:04:43.323 +03:00 [INF] Executed endpoint 'BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC)'
+2025-03-24 10:04:43.323 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5112/?isReturnPage=true - 200 null text/html; charset=utf-8 12.541ms
+2025-03-24 10:05:30.794 +03:00 [INF] User profile is available. Using '/Users/burcu.bilgin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-03-24 10:05:30.883 +03:00 [INF] Now listening on: http://localhost:5112
+2025-03-24 10:05:30.884 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 10:05:30.884 +03:00 [INF] Hosting environment: Development
+2025-03-24 10:05:30.884 +03:00 [INF] Content root path: /Users/BusTicketCase/BusTicketCase.MVC
+2025-03-24 10:05:31.434 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5112/ - null null
+2025-03-24 10:05:31.439 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-03-24 10:05:31.454 +03:00 [INF] Executing endpoint 'BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC)'
+2025-03-24 10:05:31.531 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Boolean) on controller BusTicketCase.MVC.Controllers.HomeController (BusTicketCase.MVC).
+2025-03-24 10:05:31.676 +03:00 [INF] Executing action method BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC) - Validation state: "Valid"
+2025-03-24 10:05:32.166 +03:00 [INF] Executed action method BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC), returned result Microsoft.AspNetCore.Mvc.ViewResult in 488.1847ms.
+2025-03-24 10:05:32.180 +03:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 10:05:32.327 +03:00 [INF] Executed ViewResult - view Index executed in 148.9526ms.
+2025-03-24 10:05:32.329 +03:00 [INF] Executed action BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC) in 798.2461ms
+2025-03-24 10:05:32.330 +03:00 [INF] Executed endpoint 'BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC)'
+2025-03-24 10:05:32.335 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5112/ - 200 null text/html; charset=utf-8 901.1768ms
+2025-03-24 10:05:44.498 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5112/Home/GetJourneys - application/x-www-form-urlencoded 274
+2025-03-24 10:05:44.506 +03:00 [INF] Executing endpoint 'BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC)'
+2025-03-24 10:05:44.513 +03:00 [INF] Route matched with {action = "GetJourneys", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetJourneys(BusTicketCase.MVC.Models.IndexViewModel) on controller BusTicketCase.MVC.Controllers.HomeController (BusTicketCase.MVC).
+2025-03-24 10:05:44.531 +03:00 [INF] Executing action method BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC) - Validation state: "Invalid"
+2025-03-24 10:05:44.535 +03:00 [INF] Executed action method BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.3527ms.
+2025-03-24 10:05:44.535 +03:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 10:05:44.539 +03:00 [INF] Executed ViewResult - view Index executed in 3.9124ms.
+2025-03-24 10:05:44.539 +03:00 [INF] Executed action BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC) in 25.8098ms
+2025-03-24 10:05:44.539 +03:00 [INF] Executed endpoint 'BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC)'
+2025-03-24 10:05:44.539 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5112/Home/GetJourneys - 200 null text/html; charset=utf-8 43.1781ms
+2025-03-24 10:05:52.270 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5112/Home/GetJourneys - application/x-www-form-urlencoded 274
+2025-03-24 10:05:52.271 +03:00 [INF] Executing endpoint 'BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC)'
+2025-03-24 10:05:52.271 +03:00 [INF] Route matched with {action = "GetJourneys", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetJourneys(BusTicketCase.MVC.Models.IndexViewModel) on controller BusTicketCase.MVC.Controllers.HomeController (BusTicketCase.MVC).
+2025-03-24 10:05:52.272 +03:00 [INF] Executing action method BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC) - Validation state: "Valid"
+2025-03-24 10:05:53.056 +03:00 [INF] Executed action method BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC), returned result Microsoft.AspNetCore.Mvc.ViewResult in 783.0354ms.
+2025-03-24 10:05:53.056 +03:00 [INF] Executing ViewResult, running view JourneyIndex.
+2025-03-24 10:05:53.080 +03:00 [INF] Executed ViewResult - view JourneyIndex executed in 23.7657ms.
+2025-03-24 10:05:53.082 +03:00 [INF] Executed action BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC) in 810.3867ms
+2025-03-24 10:05:53.082 +03:00 [INF] Executed endpoint 'BusTicketCase.MVC.Controllers.HomeController.GetJourneys (BusTicketCase.MVC)'
+2025-03-24 10:05:53.082 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5112/Home/GetJourneys - 200 null text/html; charset=utf-8 812.0164ms
+2025-03-24 10:06:00.261 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5112/?isReturnPage=true - null null
+2025-03-24 10:06:00.261 +03:00 [INF] Executing endpoint 'BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC)'
+2025-03-24 10:06:00.261 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Boolean) on controller BusTicketCase.MVC.Controllers.HomeController (BusTicketCase.MVC).
+2025-03-24 10:06:00.265 +03:00 [INF] Executing action method BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC) - Validation state: "Valid"
+2025-03-24 10:06:00.265 +03:00 [INF] Executed action method BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0476ms.
+2025-03-24 10:06:00.265 +03:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 10:06:00.266 +03:00 [INF] Executed ViewResult - view Index executed in 1.0756ms.
+2025-03-24 10:06:00.266 +03:00 [INF] Executed action BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC) in 4.6906ms
+2025-03-24 10:06:00.266 +03:00 [INF] Executed endpoint 'BusTicketCase.MVC.Controllers.HomeController.Index (BusTicketCase.MVC)'
+2025-03-24 10:06:00.266 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5112/?isReturnPage=true - 200 null text/html; charset=utf-8 5.168ms
